@@ -1,6 +1,9 @@
 [package]
 name = "svrv"
-version = "0.0.1"
+description = "Serve Or Live-Reload Static Sites"
+version = "0.0.2"
+repository = "https://github.com/qxb3/svrv"
+license = "MIT"
 edition = "2021"
 
 [dependencies]
