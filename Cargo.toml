@@ -1,6 +1,11 @@
 [package]
 name = "svrv"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+http-body-util = "0.1.2"
+hyper = { version = "1.5.0", features = ["full"] }
+hyper-util = { version = "0.1.10", features = ["full"] }
+tokio = { version = "1.41.0", features = ["full"] }
